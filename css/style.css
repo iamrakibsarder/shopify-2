@@ -1,0 +1,48 @@
+.mainbox{
+			display: flex;
+		    flex-wrap: wrap;
+		    width: 1200px;
+		    margin-left: auto;
+		    margin-right: auto;
+
+		}
+.box-one{
+			width: 50%;
+			background-color: #4b36ff;
+			color: white;
+			padding: 30px;
+			box-sizing: border-box;
+			display: flex;
+			align-content: flex-start;
+			flex-wrap: wrap;
+			align-items: flex-start;
+			flex-direction: column;
+			justify-content: center;
+		}
+.box-two{
+			width: 50%;
+		 
+		}
+	
+
+	h1{
+		    margin-bottom: 0;
+            font-size: 40px;
+            letter-spacing: .8px;
+	}
+
+	p{
+        
+        margin: 0;
+        font-size: 20px;
+        line-height: 29px;
+        margin-top: 11px;	
+    }
+
+	img{
+		width: 100%;
+		height: 600px;
+		object-fit: cover;
+		object-position: bottom;
+		display: block;
+	}
